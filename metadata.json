@@ -1,0 +1,55 @@
+{
+  "name": "Streaming beam Python flex template",
+  "description": "Streaming beam example for python flex template.",
+  "parameters": [
+    {
+      "name": "input-topic",
+      "label": "input-topic",
+      "helpText": "input-topic"
+    },
+    {
+      "name": "region",
+      "label": "region",
+      "helpText": "region"
+    },{
+      "name": "bigquery-dataset",
+      "label": "bigquery-dataset",
+      "helpText": "bigquery-dataset"
+    },
+    {
+      "name": "staging-location",
+      "label": "staging-location",
+      "helpText": "staging-location"
+    },
+    {
+      "name": "temp-location",
+      "label": "temp-location",
+      "helpText": "temp-location"
+    },
+    {
+      "name": "bigquery-table",
+      "label": "bigquery-table",
+      "helpText": "bigquery-table"
+    },
+    {
+      "name": "window-size",
+      "label": "window-size",
+      "helpText": "window-size"
+    },
+    {
+      "name": "min-batch-size",
+      "label": "min-batch-size",
+      "helpText": "min-batch-size"
+    },
+    {
+      "name": "max-batch-size",
+      "label": "max-batch-size",
+      "helpText": "max-batch-size"
+    },
+    {
+      "name": "runner",
+      "label": "runnerrunner",
+      "helpText": "runner"
+    }
+  ]
+}
